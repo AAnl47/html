@@ -589,6 +589,16 @@ header{
     }
 }
 @media (max-width: 450px){
+    body{
+        margin: 15px;
+    }
+    .logo{
+        margin-left: 15px;
+        font-size: 32px;
+    }
+    .menu-icon{
+        margin-right: 15px;
+    }
     .home{
         min-height: 485px;
         padding-top: 5rem;
