@@ -4,63 +4,259 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Blue Hub</title>
-    <link rel="stylesheet" href="lond.css" />
+    <title>Amarjeet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+                            <!--Box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
 </head>
 <body>
-    <div class="container">
-    <h1 style="text-align:center">Customer Registration</h1>
 
-    <form action="https://formspree.io/f/xrgdbaow" method="POST">
-        <label for="">Name</label>
-        <input name="Name" class="input" type="text" , placeholder="Enter your name"><br>
-        <label for="">Phone Number</label>
-        <input name="Contact Number" class="input" type="number" , placeholder="Enter your contact number"><br>
-        <label for="">Date of Birth</label>
-        <input name="Date of Birth" class="input" type="date" , placeholder="Enterdate" , placeholder="Enter your Birth Date"><br>
-        <label for="">Time for meeting</label>
-        <input name="Time" class="input" type="time" , placeholder="Enter the time to fuck"><br>
-        <label for="">Unique Code</label>
-        <input name="Unique_code" class="input" type="text" , placeholder="It will be asked when you meet"><br>
-        <label for="">Your image</label>
-        <input class="input" type="file" , placeholder="it will be secret"><br>
+    <a href="#home" class="scroll-top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo"><span style="color: white;">A</span>Anand</a>
+            <ul class="navbar">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Services</a></li>
+                <li><a href="#" class="nav-link">Portfolio</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
 
-        <p>Which age of girls do you like most ?</p>
-        <input type="radio" name="Girls type"  value="18+">
-        <label for="18+">18+</label><br>
-        <input type="radio" name="Girls type"  value="21+">
-        <label for="21+">21+</label><br>
-        <input type="radio" name="Girls type"  value="25+">
-        <label for="25+">25+</label><br>
-        <input type="radio" name="Girls type"  value="30+">
-        <label for="30+">30+</label><br>
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="../profile.jpg" alt="profile image">
+            </div>
+            <div class="home-text">
+                <h3>Hello, I'm</h3>
+                <h2>Amarjeet <span class="color">Anand</span></h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perspiciatis magnam dolorum pariatur rem veniam ratione, laudantium accusamus adipisci nemo corporis molestias, beatae sunt? Sit magni quidem quisquam.
+                    <br>Here's a bit more about me.
+                </p>
 
-        <p>How do you like to fuck ?</p>
-        <input type="checkbox" name="Fucking type"  value="with condom">
-        <label for="with condom">With condom</label><br>
-        <input type="checkbox" name="Fucking type"  value="without condom">
-        <label for="without condom">Without condom</label><br>
-        <input type="checkbox" name="Fucking type"  value="mouth sex">
-        <label for="mouth sex">Mouth sex</label><br>
-        <input type="checkbox" name="Fucking type"  value="anal sex">
-        <label for="anal sex">Anal sex</label><br>
-        <br>
-        <label>Description</label><br>
-        <textarea name="Message" cols="30" rows="10" placeholder="Enter your message......"></textarea><br>
-        <input class="btn-grad" type="submit" value="Send">
+                                 <!-- social buttons-->
+
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                                  <!-- about section -->
+    
+    <section class="about container" id="about">
+        <h2 class="heading">About</h2>
+        <div class="about-content">
+            <div class="about-data">
+                <span>About me</span>
+                <h2>Web Developer, <br>
+                    Cyber Security & Web Designer</h2>
+                    <a href="#" class="btn">
+                        Download CV
+                        <i class='bx bx-download'></i>
+                    </a>
+            </div>
+            <div class="about-text">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni ad voluptatum sint ea asperiores.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni ad voluptatum sint ea asperiores.</p>
+                <p>Get your project book with contact button.</p>
+            </div>
+        </div>
+    </section>
+                              <!-- Services section -->
+
+    <section class="services container" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-content">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero saepe architecto voluptatum deleniti, veniam debitis!</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-lock'></i>
+                <h2>Cyber Security</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero saepe architecto voluptatum deleniti, veniam debitis!</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-brush'></i>
+                <h2>Web Designing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero saepe architecto voluptatum deleniti, veniam debitis!</p>
+            </div>
+        </div>
+    </section>
+                               <!--portfolio-->
+
+    <section class="portfolio container" id="portfolio">
+        <h2 class="heading">Portfolio</h2>
+        <div class="portfolio-content">
+            <div class="portfolio-box">
+                <img src="profile.jpg" alt="" class="portfolio-img">
+                <div class="overlay">
+                    <h2>Web Development</h2>
+                    <a href="#">
+                        <i class='bx bx-link' ></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="profile.jpg" alt="" class="portfolio-img">
+                <div class="overlay">
+                    <h2>Web Designing</h2>
+                    <a href="#">
+                        <i class='bx bx-link' ></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="profile.jpg" alt="" class="portfolio-img">
+                <div class="overlay">
+                    <h2>Cyber Security</h2>
+                    <a href="#">
+                        <i class='bx bx-link' ></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="profile.jpg" alt="" class="portfolio-img">
+                <div class="overlay">
+                    <h2>Others</h2>
+                    <a href="#">
+                        <i class='bx bx-link' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+                         <!-- Project Details -->
+    
+    <section class="project container" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-content">
+            <div class="project-box">
+                <h2>00</h2>
+                <span>Project Completed</span>
+            </div>
+            <div class="project-box">
+                <h2>00</h2>
+                <span>Websites Developed</span>
+            </div>
+            <div class="project-box">
+                <h2>00</h2>
+                <span>Happy Clients</span>
+            </div>
+        </div>
+    </section>
+                             <!-- Review -->
+
+    <section class="container reviews" id="reviews">
+        <h2 class="heading">Reviews</h2>
+        <div class="reviews-content swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <i class='bx bxs-quote-right'></i>
+                        <p class="review-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores eligendi soluta, omnis repudiandae perferendis deleniti? Vel libero quo magnam vero!
+                        </p>
+                        <div class="review-profile">
+                            <h2>Dear D</h2>
+                            <span>From Heart</span>
+                           <img src="profile.jpg" alt="Abhinav">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <i class='bx bxs-quote-right'></i>
+                        <p class="review-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores eligendi soluta, omnis repudiandae perferendis deleniti? Vel libero quo magnam vero!
+                        </p>
+                        <div class="review-profile">
+                            <h2>Abhinav Singh</h2>
+                            <span>From Aurangabad</span>
+                           <img src="profile.jpg" alt="Abhinav">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <i class='bx bxs-quote-right'></i>
+                        <p class="review-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores eligendi soluta, omnis repudiandae perferendis deleniti? Vel libero quo magnam vero!
+                        </p>
+                        <div class="review-profile">
+                            <h2>Abhishek Kumar</h2>
+                            <span>From Samastipur</span>
+                           <img src="profile.jpg" alt="Abhinav">
+                        </div>
+                    </div>
+                </div>
+                
+                
+              </div>
+              <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+                 <!-- Contact Form -->
+
+    <section class="contact container" id="contact">
+        <h2 class="heading">Contact</h2>
+
+        <form action="https://formspree.io/f/xrgdbaow" method="POST" class="contact-form" id="contact-form">
+
+        <input name="Name" type="text" class="name" placeholder="Enter Your Name" required>
+        <input name="Email" type="text" class="name"  placeholder="Enter Your Email" required>
+        <textarea name="Message" id="" cols="30" rows="10" placeholder="Write message here..." class="msg" required></textarea>
+        <input type="submit" value="Send" class="send-btn">
+
+        </form>
+    </section>
+
+                       <!-- footer -->
+
+    <section class="footer container" id="footer">
+        <div class="social">
+            <a href="mailto:contact.amarjeetanand@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Disclaimer</a>
+        </div>
+
+        <p>&#169; Dear D</p>
+
+    </section>
+
+
+
+
+    
         
-    </form>
-    <br>
-    <div class="kela">
-    <a target="_blank" title="Touch this banana to buy Crystal Condom" href="https://www.indiamart.com/proddetail/crystal-condom-washable-23284082012.html"><img src=".\banana.gif"  alt="banana"></a><br>
-    <a class="mood" target="_blank" style="color: rgb(244, 10, 10);background-color: rgb(18, 236, 236);  font-weight: 900; font-size: 21px; text-decoration: none;" href="https://youtu.be/0swS2rHWcYA" title="Don't think__Just click🤣">Mood banane k liye yahan click kare</a><br>
-    <br>
-    <br>
-    <iframe width="100%" src="https://www.youtube.com/embed/vwMR0yf4q04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe>
-    
-    </div>
-
-</div>
-    
+    <script src="../swiper-bundle.min.js"></script>
+    <script src="../power.js"></script>
 </body>
 </html>
