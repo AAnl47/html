@@ -54,7 +54,7 @@ header{
     padding: 20px 0;
 }
 .logo{
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     font-weight: 600;
     color: var(--main-color);
 }
@@ -125,7 +125,7 @@ header{
     overflow: hidden;
     margin-bottom: 2rem;
 }
-.home-img{
+.home-img img{
     width: 180px;
     height: 180px;
     object-fit: cover;
@@ -589,15 +589,8 @@ header{
     }
 }
 @media (max-width: 450px){
-    body{
-        margin: 15px;
-    }
     .logo{
-        margin-left: 15px;
         font-size: 32px;
-    }
-    .menu-icon{
-        margin-right: 15px;
     }
     .home{
         min-height: 485px;
